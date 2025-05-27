@@ -1,6 +1,0 @@
-.env
-.dockerignore
-dockerfile
-misc.py
-streamlit_app.py
-__pycache__
