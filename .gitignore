@@ -1,6 +1,5 @@
-.env
-.dockerignore
-dockerfile
-misc.py
-streamlit_app.py
-__pycache__
+Artist_Poorvi/.env
+Bookkeeper_John/.env
+Librarian_Divya/.env
+Manager_chandu/.env
+Manager_Chandu/rock-data-408903-2f439cd20b71.json

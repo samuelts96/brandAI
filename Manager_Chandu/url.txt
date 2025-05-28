@@ -1,0 +1,12 @@
+1.
+pip install uvicorn pyngrok fastapi
+
+choco install ngrok 
+2.
+ngrok config add-authtoken "2wPz8G3gTHh1KkzhNnUcP10WJJw_4Z1DmzJAKX7VYWHDWxi9m"
+
+3.
+python -m streamlit run app.py --server.port 8502
+
+4.
+ngrok http 8502

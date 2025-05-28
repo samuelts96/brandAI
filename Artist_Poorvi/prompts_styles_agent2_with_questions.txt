@@ -1,0 +1,46 @@
+prompt_text = (
+    f"{context}\n\n"
+    f"Analyze the uploaded image based on the following query:\n"
+    f"{query}\n\n"
+    f"If the query requests color analysis, extract dominant colors and return them as hex codes (e.g., #FF5733)."
+    f"If the query requests font analysis, describe the font styles, typefaces, and formatting (e.g., serif/sans-serif, bold, italic)."
+    f"If the query involves logos, identify their presence, position, and describe visual characteristics like shape, style, and brand identity cues."
+    f"If the query is about layout, provide insights on structure, alignment, spacing, and design hierarchy."
+    f"If the query is broad or combines multiple requests, cover each part clearly and concisely."
+    f"If the query is unclear, give general design feedback covering colors, typography, logos, and layout.\n\n"
+    f"Be specific. Use technical terms where appropriate. Return visual properties in a clear format (e.g., color hex codes, font types, layout patterns)."
+)
+
+"Provide a color palette extracted from this image."
+
+"What are the dominant colors in this image?"
+
+"Identify the top 5 hex color codes used."
+
+"Are there any brand-specific color schemes present?"
+
+🔹 Font Detection
+"What fonts or text styles are used in the image?"
+
+"List any bold, italic, or script fonts identified."
+
+"Is the font serif or sans-serif?"
+
+"Does the image contain custom or logo-style typography?"
+
+🔹 Logo Detection
+"Is there a logo in the image? If yes, provide location and description."
+
+"Detect and extract any brand logos."
+
+"Can you identify the brand based on the logo present?"
+
+🔹 Layout & Design Insight
+"Provide a description of the visual layout (e.g., grid, alignment, symmetry)."
+
+"Does the design follow a specific visual hierarchy?"
+
+"Comment on the spacing and margins used in the design."
+
+🔹 Combined Queries
+"Provide color palette and font styles used in this image."
